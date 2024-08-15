@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&family=Kaushan+Script&family=Merienda:wght@300..900&family=Playwrite+AU+TAS:wght@100..400&family=Playwrite+SK:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    text-align: center;
+    padding: 10px;
+    font-family: "Merienda", cursive;
+    color:brown
+}
+.start{
+    display: flex;
+    justify-content: center;
+    background-color: cadetblue;
+    height: 100vh;
+    align-items: center;
+
+}
+.container{
+    background-color: black;
+    height: 300px;
+    width:300px;
+    padding: 10px 10px;
+}
+form{
+    padding: 10px;  
+}
+.one{
+    display: flex;
+    gap:5px;
+}
+form input{
+    width:50px;
+    text-align: center;
+    padding: 12px 30px;
+}
+.firstbox input{
+    width:210px;
+    margin-top:0.6em ;
+    margin-bottom: 0.8em;
+    background-color: greenyellow;
+    font-size: bolder;
+    font-weight: 600;
+}
+.AC{
+    background-color: rgb(216, 65, 65);
+    color:white;
+
+}
+.operator{
+    color:white;
+    background-color: rgb(70, 125, 207);
+}
+form div input{
+    font-size: large;
+    cursor: pointer;
+}
+form div input:hover{
+    background-color: chocolate;
+}
